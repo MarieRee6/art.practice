@@ -1,6 +1,10 @@
 * {box-sizing: border-box;
     margin: 0; padding: 0;}
 
+    html {
+        scroll-behavior: smooth
+        }
+
     body {
         background-color: #FFF9F0;
     }
@@ -31,7 +35,7 @@
         margin-right: 44px;
     }
 
-    #support {
+    .support {
         text-decoration: none;
         font-family: 'Aeroport';
         font-weight: bold;
@@ -45,7 +49,7 @@
         padding: 30px;
     }
 
-    #title {
+    .title {
         margin-left: auto;
         margin-right: auto;
         display: flex;
@@ -71,7 +75,7 @@
         margin-bottom: -100px;
     }
 
-    #about {
+    .about {
         background-image: url(img/back1.png);
         width: 1440px;
         height: 1450px;
@@ -81,21 +85,21 @@
         flex-direction: column;
     }
 
-    #section-title1 {
+    h3 {
         font-size: 128px;
         margin-top: 455px;
         padding-top: 50px;
         margin-left: 110px;
     }
 
-    #text {
+    .text {
         font-size: 36px;
         margin-left: 110px;
         margin-top: 40px;
         padding-bottom: 287px;
     }
 
-    #afisha {
+    .afisha {
         display: flex;
         flex-direction: column;
         width: 1440px;
@@ -104,7 +108,7 @@
         margin-top: -90px;
     }
 
-    #section-title2 {
+    h4 {
         font-size: 128px;
         margin-left: auto;
         margin-right: auto;
@@ -126,9 +130,10 @@
     .img:hover {
         transform: scale(1.1);
         transition: 0.3s;
+        cursor: pointer;
     }
 
-    #buy {
+    .buy {
         background-image: url(img/back2.png);
         margin-top: -300px;
         width: 1440px;
@@ -138,12 +143,11 @@
         flex-direction: column;
     }
 
-    #section-title3 {
+    h5 {
         font-size: 128px;
         margin-left: auto;
         margin-right: auto;
         padding-top: 365px;
-        padding-bottom: 100px;
     }
 
     form {
@@ -157,6 +161,7 @@
         flex-direction: column;
         justify-content: space-between;
         margin-bottom: 50px;
+        margin-top: 100px;
     }
 
     .line1 {
@@ -193,7 +198,7 @@
         font-size: 20px;
     }
 
-    #checkbox {
+    .checkbox {
         font-size: 20px;
         display: flex;
         align-items: center;
@@ -212,7 +217,7 @@
         outline: none;
     }
 
-    #two-buttom {
+    .two-buttom {
         display: flex;
         justify-content: space-between;
         width: 480px;
@@ -246,6 +251,10 @@
         color: #FFF9F0;
         font-size: 24px;
         margin-bottom: 50px;
+    }
+
+    address {
+        font-style: normal;
     }
 
 
